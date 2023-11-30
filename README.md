@@ -5,7 +5,7 @@
  - To run this project , in your terminal type `npm run dev`
  - this is the working demo : https://taskmanagertodoreact.netlify.app/ 
 
-## functionalities 
+## Functionalities 
  - all the functionaities are implemented as mentioned in the docs
  - instead of state i used redux for the state management and as well as state persistence
  - And i used redux persistance to persist the state intead of local storage.
