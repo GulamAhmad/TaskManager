@@ -1,0 +1,17 @@
+.dialog {
+  width: 350px;
+  height: 450px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding:0;
+  line-height: 10px;
+  width:30px;
+  height:30px;
+}
