@@ -110,13 +110,17 @@ const Tasks = () => {
 
       <div className={style.box}>
         <div className={style.list}>
-          <div className={style.listheader}>
-            <b>Title</b>
-            <b>Priority</b>
-            <b>Completion</b>
-            <b>Due date</b>
-            <b>Updates</b>
-          </div>
+          { task.length !== 0 ? (
+            <div className={style.listheader}>
+              <b>Title</b>
+              <b>Priority</b>
+              <b>Completion</b>
+              <b>Due date</b>
+              <b>Updates</b>
+            </div>
+          ) : (
+            ""
+          )}
           {/* maping over task to render it  */}
           {sortedTasks?.map((val) => {
             return (
