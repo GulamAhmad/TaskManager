@@ -4,4 +4,4 @@
  - Now project has install in your local machine
  - To run this project , in your terminal type `npm run dev`
 
-this is the working dsemo : https://taskmanagertodoreact.netlify.app/ 
+this is the working demo : https://taskmanagertodoreact.netlify.app/ 
